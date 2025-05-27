@@ -2,6 +2,8 @@
 _This repo contains PCB design files & fab ready Gerbers for the Omi Glass DevKit._  
 `R` indicates PCB revision # and `V` indicates the glasses version.
 
+![](assets/v2_OGD.jpg)
+
 ### Ordering
 - `/export` contains zipped gerber files, `BOM` component list, and `PNP` file for Pick and Place.
 - board height must be `.8mm`

@@ -506,7 +506,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "export/",
+      "plot": "../export/v3/",
       "pos_files": "../export",
       "specctra_dsn": "",
       "step": "export/R0.0-PCB_v3-Omi-Glass.step",
