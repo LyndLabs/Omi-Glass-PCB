@@ -1,4 +1,4 @@
-23074930721862903
+23078426943480029
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63420,12 +63420,26 @@ LyndLabs
 2
 2
 LyndLabs
+MOLEX_51281-0594
+
+
+0
+7
+7
+LyndLabs
 NPM1300-QFN32
 QFN, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8153-8-and-16-bit-avr-microcontroller-xmega-e-atxmega8e5-atxmega16e5-atxmega32e5_datasheet.pdf#page=70), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 37
 33
+LyndLabs
+NRF5340-4x4
+
+
+0
+95
+95
 LyndLabs
 PJ-342
 

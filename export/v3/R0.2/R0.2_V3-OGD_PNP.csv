@@ -1,0 +1,4 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+R1,R_Small_US,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,10.85,-5.6,180,Top
+R2,R_Small_US,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,10.85,-6.75,0,Top
+SW1,SW_Push,Panasonic_EVQPUL_EVQPUC,13.23,-8.625,180,Top

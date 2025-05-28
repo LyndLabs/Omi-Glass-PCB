@@ -1563,153 +1563,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MicroControllers:XIAO / QT-Py ESP32"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3228,12 +3081,6 @@
 		(uuid "23a3db57-9d72-49f1-bf07-8080ac0e4a57")
 	)
 	(junction
-		(at 262.89 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "270f7573-78ba-428e-bbbe-951af0d5fb37")
-	)
-	(junction
 		(at 99.06 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3252,28 +3099,10 @@
 		(uuid "486e38b3-e049-4065-b919-83a67c936dd4")
 	)
 	(junction
-		(at 246.38 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a9e61e3-5bf3-4a1e-aca6-ef7b1f36fb98")
-	)
-	(junction
 		(at 68.58 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70258b96-e04e-4ba4-a441-5b2495d3d471")
-	)
-	(junction
-		(at 256.54 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a6972ee-7325-4ca7-b909-8ce5fb697806")
-	)
-	(junction
-		(at 240.03 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8182aff3-e6e6-46de-a001-ce6528a7565c")
 	)
 	(junction
 		(at 107.95 101.6)
@@ -3282,10 +3111,22 @@
 		(uuid "8fd9ae19-8909-4901-916b-ed4cb00a3429")
 	)
 	(junction
+		(at 262.89 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c3bb581-98d3-452a-847e-41c35ac6ae36")
+	)
+	(junction
 		(at 113.03 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7590345-8984-44ae-8d73-5ec30fd8f826")
+	)
+	(junction
+		(at 240.03 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a93ef379-1a10-41d7-afe9-831214bddc3e")
 	)
 	(junction
 		(at 265.43 63.5)
@@ -3426,16 +3267,6 @@
 			(type default)
 		)
 		(uuid "1c196c02-8bde-471d-b27d-307e779c2a4b")
-	)
-	(wire
-		(pts
-			(xy 246.38 63.5) (xy 240.03 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23df8862-067f-4193-95c4-d2e1fcdf1371")
 	)
 	(wire
 		(pts
@@ -3669,16 +3500,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 63.5) (xy 256.54 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a43dec3-dee6-458a-8542-73cb4a169eaf")
-	)
-	(wire
-		(pts
 			(xy 100.33 60.96) (xy 100.33 55.88)
 		)
 		(stroke
@@ -3899,6 +3720,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 63.5) (xy 262.89 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfda420-fc93-4bb1-9aaf-8aff64f907c8")
+	)
+	(wire
+		(pts
 			(xy 220.98 36.83) (xy 220.98 43.18)
 		)
 		(stroke
@@ -4106,26 +3937,6 @@
 			(type default)
 		)
 		(uuid "c1db13d4-c1be-4590-bad7-19fa0847ccf4")
-	)
-	(wire
-		(pts
-			(xy 256.54 63.5) (xy 255.27 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6945226-fda1-4a46-83ac-794bf1624859")
-	)
-	(wire
-		(pts
-			(xy 247.65 63.5) (xy 246.38 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca35f662-7fba-44b1-9438-1e8f96c69492")
 	)
 	(wire
 		(pts
@@ -6378,74 +6189,6 @@
 			(project ""
 				(path "/635eb50f-488a-4d6f-8ee4-97bdde581e20"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 251.46 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5488855a-1da6-41f3-a711-e36729b7c1d8")
-		(property "Reference" "JP1"
-			(at 251.46 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 251.46 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 251.46 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b48cb3e-f72f-4983-80a5-3e55fc3afdf1")
-		)
-		(pin "2"
-			(uuid "0b607dba-e94b-4fbe-9da7-aa4ef1dfb19d")
-		)
-		(instances
-			(project ""
-				(path "/635eb50f-488a-4d6f-8ee4-97bdde581e20"
-					(reference "JP1")
 					(unit 1)
 				)
 			)

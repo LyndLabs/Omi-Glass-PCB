@@ -507,9 +507,9 @@
       "idf": "",
       "netlist": "",
       "plot": "../export/v3/",
-      "pos_files": "../export",
+      "pos_files": "../export/",
       "specctra_dsn": "",
-      "step": "export/R0.0-PCB_v3-Omi-Glass.step",
+      "step": "../export/v3/R0.2_V3-OGD.step",
       "svg": "",
       "vrml": ""
     },
